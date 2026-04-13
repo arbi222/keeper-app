@@ -1,31 +1,4 @@
-// import React from "react";
-// import Header from "./header.jsx";
-// import Footer from "./footer.jsx";
-// import Note from "./note.jsx";
-// import notes from "../notes.js";
-//
-// // function returnNotes(notes){
-// //   return (<Note
-// //     key= {notes.key}
-// //     title= {notes.title}
-// //     content= {notes.content}
-// //   />
-// // )}
-//
-//
-// function App(){
-//   return (
-//     <div>
-//       <Header />
-//       {notes.map(noteItem => (<Note key= {noteItem.key} title= {noteItem.title} content= {noteItem.content} />))}
-//       <Footer />
-//     </div>
-//   );
-// }
-//
-// export default App;
-
-import React, { useState } from "react";
+import { useState } from "react";
 import Header from "./header";
 import Footer from "./footer";
 import Note from "./note";
